@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>DataProducts Project</title>
+  <meta charset="utf-8">
+  <meta name="description" content="DataProducts Project">
+  <meta name="author" content="DavidAh">
+  <meta name="generator" content="slidify" />
+  <meta name="apple-mobile-web-app-capable" content="yes">
+  <meta http-equiv="X-UA-Compatible" content="chrome=1">
+  <link rel="stylesheet" href="libraries/frameworks/io2012/css/default.css" media="all" >
+  <link rel="stylesheet" href="libraries/frameworks/io2012/css/phone.css" 
+    media="only screen and (max-device-width: 480px)" >
+  <link rel="stylesheet" href="libraries/frameworks/io2012/css/slidify.css" >
+  <link rel="stylesheet" href="libraries/highlighters/highlight.js/css/tomorrow.css" />
+  <base target="_blank"> <!-- This amazingness opens all links in a new tab. -->  <link rel=stylesheet href="./assets/css/ribbons.css"></link>
+
+  
+  <!-- Grab CDN jQuery, fall back to local if offline -->
+  <script src="http://ajax.aspnetcdn.com/ajax/jQuery/jquery-1.7.min.js"></script>
+  <script>window.jQuery || document.write('<script src="libraries/widgets/quiz/js/jquery.js"><\/script>')</script> 
+  <script data-main="libraries/frameworks/io2012/js/slides" 
+    src="libraries/frameworks/io2012/js/require-1.0.8.min.js">
+  </script>
+  
+  
+
+</head>
+<body style="opacity: 0">
+  <slides class="layout-widescreen">
+    
+    <!-- LOGO SLIDE -->
+        <slide class="title-slide segue nobackground">
+  <hgroup class="auto-fadein">
+    <h1>DataProducts Project</h1>
+    <h2>BMI Calculator</h2>
+    <p>DavidAh<br/>self</p>
+  </hgroup>
+  <article></article>  
+</slide>
+    
+
+    <!-- SLIDES -->
+    <slide class="" id="slide-1" style="background:;">
+  <hgroup>
+    <h2>Introduction to BMI</h2>
+  </hgroup>
+  <article data-timings="">
+    <p>The Body Mass Index (BMI) is a number that provides calculated from a person&#39;s height and weight that provides a fairly reliable indicator if the person is overweight or not:  </p>
+
+<ul>
+<li>BMI does not measure body fat directly.</li>
+<li>Research has shown that BMI correlates to direct measures of body fat.</li>
+<li>BMI can be considered an alternative for direct measures of body fat. </li>
+</ul>
+
+<p>BMI is an inexpensive and easy-to-perform method of screening for weight categories that may lead to health problems.</p>
+
+  </article>
+  <!-- Presenter Notes -->
+</slide>
+
+<slide class="" id="slide-2" style="background:;">
+  <hgroup>
+    <h2>BMI Calculation</h2>
+  </hgroup>
+  <article data-timings="">
+    <p>The BMI Table below provides an explanation of the BMI number and the corresponding weight status.</p>
+
+<h3>BMI Table</h3>
+
+<pre><code>##  BMI           Weight Status
+##  &quot;&lt;18.5&quot;       &quot;Underweight&quot;
+##  &quot;18.5 - 24.9&quot; &quot;Normal&quot;     
+##  &quot;25.0 - 29.9&quot; &quot;Overweight&quot; 
+##  &quot;&gt; 30.0&quot;      &quot;Obese&quot;
+</code></pre>
+
+<h3>BMI forumala</h3>
+
+<p>BMI = weight(lbs)  /  ( height(inches)**2 ) * 703</p>
+
+<p>Once you&#39;ve calculated your BMI, you compare your BMI against the rows of the table to determine your weight status.</p>
+
+  </article>
+  <!-- Presenter Notes -->
+</slide>
+
+<slide class="" id="slide-3" style="background:;">
+  <hgroup>
+    <h2>BMI Application</h2>
+  </hgroup>
+  <article data-timings="">
+    <p>The BMI Applicaiton is a simple web app that allows a user to quickly calculate their BMI using any web enabled device. </p>
+
+<pre><code class="r">weight = 180
+height_in_inches = 6 * 12
+BMI = ( weight / (height_in_inches ^2) ) * 703
+print(BMI)
+</code></pre>
+
+<pre><code>## [1] 24.40972
+</code></pre>
+
+  </article>
+  <!-- Presenter Notes -->
+</slide>
+
+<slide class="" id="slide-4" style="background:;">
+  <hgroup>
+    <h2>References</h2>
+  </hgroup>
+  <article data-timings="">
+    <p><a href="http://www.cdc.gov/healthyweight/assessing/bmi/index.html">http://www.cdc.gov/healthyweight/assessing/bmi/index.html</a></p>
+
+  </article>
+  <!-- Presenter Notes -->
+</slide>
+
+    <slide class="backdrop"></slide>
+  </slides>
+  <div class="pagination pagination-small" id='io2012-ptoc' style="display:none;">
+    <ul>
+      <li>
+      <a href="#" target="_self" rel='tooltip' 
+        data-slide=1 title='Introduction to BMI'>
+         1
+      </a>
+    </li>
+    <li>
+      <a href="#" target="_self" rel='tooltip' 
+        data-slide=2 title='BMI Calculation'>
+         2
+      </a>
+    </li>
+    <li>
+      <a href="#" target="_self" rel='tooltip' 
+        data-slide=3 title='BMI Application'>
+         3
+      </a>
+    </li>
+    <li>
+      <a href="#" target="_self" rel='tooltip' 
+        data-slide=4 title='References'>
+         4
+      </a>
+    </li>
+  </ul>
+  </div>  <!--[if IE]>
+    <script 
+      src="http://ajax.googleapis.com/ajax/libs/chrome-frame/1/CFInstall.min.js">  
+    </script>
+    <script>CFInstall.check({mode: 'overlay'});</script>
+  <![endif]-->
+</body>
+  <!-- Load Javascripts for Widgets -->
+  
+  <!-- LOAD HIGHLIGHTER JS FILES -->
+  <script src="libraries/highlighters/highlight.js/highlight.pack.js"></script>
+  <script>hljs.initHighlightingOnLoad();</script>
+  <!-- DONE LOADING HIGHLIGHTER JS FILES -->
+   
+  </html>
