@@ -57,7 +57,10 @@ print(BMI)
 ---
 
 ## References
+http://en.wikipedia.org/wiki/Body_mass_index
 http://www.cdc.gov/healthyweight/assessing/bmi/index.html
+
+
 
 
 
